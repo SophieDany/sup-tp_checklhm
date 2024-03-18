@@ -1,0 +1,13 @@
+<mvc:View controllerName="com.koerber.checklhm.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Page id="startChecking" title="Scan Tour">
+        <customHeader>
+			<core:Fragment id="customHeader" fragmentName="com.koerber.checklhm.view.fragments.AppHeader" type="XML"/>
+		</customHeader>
+        <content>
+            <Label id="labelScanPrompt"/>
+            <Button id="btnNavigateToUnload" text="{i18n>btnUnload}" press="onNavigateToUnload"/>
+        </content>
+    </Page>
+</mvc:View>

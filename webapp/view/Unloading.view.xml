@@ -1,0 +1,8 @@
+<mvc:View controllerName="com.koerber.checklhm.controller.Unload" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Page id="unloadPage" title="Entladung">
+        <content>
+            <Label id="scanPrompt" text="LHM scannen"/>
+            <Button id="navigateBack" text="Zurück zur Verladung" press="onNavigateToLoading" />
+        </content>
+    </Page>
+</mvc:View>

@@ -1,0 +1,9 @@
+{
+    "LHMs": [
+        { "type": 1, "type_des": "Europalette", "quantity": 0, "quantity_unit": "ST" },
+        { "type": 2, "type_des": "Rollwagen", "quantity": 0, "quantity_unit": "ST" },
+        { "type": 3, "type_des": "Gestell", "quantity": 0, "quantity_unit": "ST" },
+        { "type": 4, "type_des": "Gitterbox", "quantity": 0, "quantity_unit": "ST" },
+        { "type": 5, "type_des": "Sonstiges", "quantity": 0, "quantity_unit": "ST" }
+    ]
+}

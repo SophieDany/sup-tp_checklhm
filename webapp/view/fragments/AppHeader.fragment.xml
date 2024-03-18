@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Bar id="headerPageBar">
+        <contentLeft>
+            <Button id="backBtn" icon="sap-icon://nav-back" type="Emphasized" press="onBack" /><!--in App.controller definiert-->
+        </contentLeft>
+        <contentMiddle>
+            <Title id="pageTitle" text="{i18n>title}" />
+        </contentMiddle>
+        <contentRight>
+            <Button id="btnManualScan" icon="sap-icon://bar-code" type="Emphasized" press="onManualScan"/>
+            <Button id="sendErrorToBackendBtn" icon="sap-icon://upload-to-cloud" type="Emphasized" visible="false" press="onSendErrorsToBackend" />
+            <Button id="keyboardToggleBtn" icon="sap-icon://keyboard-and-mouse" type="Emphasized" visible="false" press="onKeyboardToggle" />
+        </contentRight>
+    </Bar>
+</core:FragmentDefinition>
